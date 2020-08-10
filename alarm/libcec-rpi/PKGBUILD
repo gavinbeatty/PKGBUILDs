@@ -6,14 +6,14 @@
 # ALARM: Kevin Mihelich <kevin@archlinuxarm.org>
 #  - RPi support, no Exynos
 
-buildarch=20
+buildarch=28
 
 pkgname=libcec-rpi
 _pkgname=libcec
 pkgver=4.0.2
 pkgrel=1
 pkgdesc="Pulse-Eight's libcec for the Pulse-Eight USB-CEC adapter (Raspberry Pi)"
-arch=('i686' 'x86_64')
+arch=('i686' 'x86_64' 'armv7h' 'aarch64')
 url="http://libcec.pulse-eight.com/"
 license=('GPL')
 makedepends=('cmake')
